@@ -1,0 +1,13 @@
+.description-divider{
+display: grid;
+grid-template-rows: 1fr;
+grid-template-columns: 1fr;
+padding: 0.6rem 1.6rem;
+border: 3px solid currentColor;
+border-radius: 1rem;
+}
+.description-text{
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    font-size: 1.3rem;
+}
